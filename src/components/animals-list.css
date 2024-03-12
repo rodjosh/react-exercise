@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.app_container {
+  width: 300px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.search_container .input_and_button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_container .input_and_button input {
+  width: 65%;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.search_container .input_and_button button {
+  width: 30%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.search_container .clear_button {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.list_container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list_container li span {
+  font-size: 18px;
+}
+
+.insert_button {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.pagination_controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
