@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import AnimalsList from './components/animals-list';
 
